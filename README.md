@@ -121,29 +121,33 @@ taskflow-api/
 ### Installation and Execution
 
 1. **Clone the repository and navigate to the root folder:**
-   ```bash
-   cd Project-2
-   ```
+
+   ```bash
+   cd Project-2
+   ```
+
 
 2. **Create and activate a virtual environment:**
-   ```bash
-   python -m venv .venv
-   # On Windows:
-   .venv\Scripts\activate
-   # On Linux/macOS:
-   source .venv/bin/activate
-   ```
+   ```bash
+   python -m venv .venv
+   # On Windows:
+   .venv\Scripts\activate
+   # On Linux/macOS:
+   source .venv/bin/activate
+   ```
+   
 
 3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+   ```bash
+   pip install -r requirements.txt
+
 
 4. **Make sure Ollama is running locally** with the configured model (`llama3.2:1b`).
 
 5. **Run the application from the `app` folder:**
-   ```bash
-   cd app
-   python main.py
-   ```
+   ```bash
+   cd app
+   python main.py
+
+ 
    *The API will be accessible at `http://localhost:8000`. The automatic interactive documentation (Swagger UI) can be accessed at `http://localhost:8000/docs`.*
